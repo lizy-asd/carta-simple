@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carta de Amor</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Fondo con estrellitas -->
+  <div class="sky"></div>
+
+  <main class="container">
+    <h1 class="page-title">Para ti, con todo mi amor 💌</h1>
+    <p class="hint">Toca el sobre para abrir la carta ✨</p>
+
+    <div class="card-scene">
+      <!-- SOBRE -->
+      <div class="envelope" id="cardToggle">
+        <div class="env-body"></div>
+        <div class="env-flap"></div>
+        <div class="env-seal">❤</div>
+      </div>
+
+      <!-- CARTA (se muestra solo cuando está abierto) -->
+      <div class="letter-card" id="letterCard">
+        <div class="letter-inner">
+          <h2>Mi persona favorita 💖</h2>
+          <p>
+            Hoy quiero recordarte lo importante que eres para mí.
+            Gracias por tus risas, por tu apoyo y por todos los momentos
+            que compartimos.
+          </p>
+          <p>
+            No importa la distancia ni el tiempo, mi cariño por ti sigue
+            creciendo cada día.
+          </p>
+          <p class="signature">
+            Con todo mi amor,<br />
+            <span>Tu persona especial</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
