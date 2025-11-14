@@ -269,13 +269,11 @@ body.card-open .letter-card {
   .hint { font-size: 0.85rem; }
   .letter-inner p { font-size: 0.95rem; }
 }
-
-/* Marca de agua elegante */
-/* Marca de agua elegante */
+/* Marca de agua elegante abajo a la derecha */
 .watermark-text{
   position: fixed;
-  bottom: 12px;
-  right: 14px;
+  bottom: 14px;
+  right: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -285,17 +283,15 @@ body.card-open .letter-card {
   opacity: 0.55;
   user-select: none;
   pointer-events: none;
-  z-index: 999999 !important; /* 🔥 para asegurar que quede encima */
+  z-index: 9999;
 }
 
+/* móvil */
 @media (max-width: 600px){
   .watermark-text{
-    font-size: 15px;
+    font-size: 14px;
     right: 10px;
     bottom: 10px;
   }
 }
-
-
-
 
